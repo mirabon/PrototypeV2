@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 10.12.2014 0:49:32 by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="com.artech.prototype2.saver.entity.IndexesRu" table="indexes_ru" catalog="prototype">
+        <id name="indexId" type="java.lang.Integer">
+            <column name="INDEXID" />
+            <generator class="identity" />
+        </id>
+        <property name="ruid" type="Integer">
+            <column name="RUID" not-null="true" />
+        </property>
+        <property name="docid" type="Integer">
+            <column name="DOCID" not-null="true" />
+        </property>
+        <property name="posit" type="Integer">
+            <column name="POSIT" not-null="true" />
+        </property>
+        <property name="tf" type="float">
+            <column name="TF" not-null="true" />
+        </property>
+        <property name="tfIdf" type="float">
+            <column name="TFIDF" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
+

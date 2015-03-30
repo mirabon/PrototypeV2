@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 10.12.2014 0:49:32 by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="com.artech.prototype2.saver.entity.ThreegramEnVarOne" table="threegram_en_var_one" catalog="prototype">
+        <id name="enid" type="java.lang.Integer">
+            <column name="ENID" />
+            <generator class="identity" />
+        </id>
+        <property name="wordOne" type="string">
+            <column name="WORD_ONE" length="200" not-null="true" />
+        </property>
+        <property name="wordTwo" type="string">
+        <column name="WORD_TWO" length="200" not-null="true" />
+    </property>
+        <property name="wordThree" type="string">
+            <column name="WORD_THREE" length="200" not-null="true" />
+        </property>
+        <property name="count" type="int">
+            <column name="COUNT" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

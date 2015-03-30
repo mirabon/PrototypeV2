@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="prototype"/>
+  <table-filter match-name="bigram_en_var_one"/>
+  <table-filter match-name="dictionary_ru"/>
+  <table-filter match-name="dictionary_en"/>
+  <table-filter match-name="bigram_ru_var_one"/>
+  <table-filter match-name="threegram_ru_var_one"/>
+  <table-filter match-name="threegram_en_var_one"/>
+  <table-filter match-name="fourgram_ru_var_one"/>
+  <table-filter match-name="fourgram_en_var_one"/>
+  <table-filter match-name="documents_en"/>
+  <table-filter match-name="documents_ru"/>
+  <table-filter match-name="indexes_ru"/>
+  <table-filter match-name="indexes_en"/>
+  <table-filter match-name="idf_en"/>
+  <table-filter match-name="idf_ru"/>
+</hibernate-reverse-engineering>

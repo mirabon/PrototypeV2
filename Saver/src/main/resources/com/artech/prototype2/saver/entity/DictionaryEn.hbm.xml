@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 10.12.2014 0:49:32 by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="com.artech.prototype2.saver.entity.DictionaryEn" table="dictionary_en" catalog="prototype">
+        <id name="enid" type="java.lang.Integer">
+            <column name="ENID" />
+            <generator class="identity" />
+        </id>
+        <property name="word" type="string">
+            <column name="WORD" length="200" not-null="true" />
+        </property>
+        <property name="count" type="int">
+            <column name="COUNT" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

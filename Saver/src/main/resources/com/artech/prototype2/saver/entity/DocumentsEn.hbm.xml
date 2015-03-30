@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 10.12.2014 0:49:32 by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="com.artech.prototype2.saver.entity.DocumentEn" table="documents_en" catalog="prototype">
+        <id name="docid" type="java.lang.Integer">
+            <column name="DOCID" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="string">
+            <column name="NAME" length="200" not-null="true" />
+        </property>
+        <property name="format" type="string">
+            <column name="FORMAT" length="200" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
